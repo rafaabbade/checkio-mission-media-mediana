@@ -1,18 +1,18 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Escreva uma função que, dados dois números inteiros distintos A e B, calcule o menor inteiro possível C tal que a média e a mediana de A, B e C sejam iguais.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Dois números inteiros A e B.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Um número inteiro, representando o menor C possível que faz a média e a mediana de A, B e C iguais.
 </p>
 
 
@@ -28,7 +28,12 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    media_mediana(1, 2) >> 0
+
+media_mediana(6, 10) >> 2
+
+media_mediana(1, 1000000000) >> -999999998
+
 </pre>
 {% endif %}
 </div>
