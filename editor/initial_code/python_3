@@ -8,7 +8,7 @@ print(media_mediana(1, 2))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 assert media_mediana(1, 2) == 0
-assert media_mediana(6, 10) == 2
+assert media_mediana(10, 6) == 2
 assert media_mediana(1, 1000000000) == -999999998
 
 print("Seu código passou pelos testes, clique em Check para avançar!")
